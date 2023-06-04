@@ -53,4 +53,66 @@ a {
   padding: 5px;
 }
 
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: column;
+  flex: 0 1 1050px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+
+.paul-photo-container {
+  flex: 0 0 350px;
+  padding: 5px;
+}
+
+.paul-photo {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.bio-text-container {
+  padding: 5px;
+  flex: 0 1 700px;
+  font-size: large;
+}
+
+
+@media (max-width: 850px) {
+  .bio {
+    flex-wrap: wrap;
+  }
+
+  .paul-photo-container {
+    flex: 0 1 350px;
+  }
+
+  .bio-text-container{
+    text-align: center;
+  }
+}
+
+
+.shows {
+  font-size: large;
+  margin: 10px;
+}
+
+
+ol {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
 
