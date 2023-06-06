@@ -121,3 +121,8 @@ ol {
   font-size: xx-large;
   margin: 20px;
 }
+
+@media (max-width: 375px) {
+  .email {
+    font-size: large;
+  }
